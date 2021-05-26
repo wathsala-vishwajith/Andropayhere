@@ -20,7 +20,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Button but3 = findViewById(R.id.button3);
-
         but3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
