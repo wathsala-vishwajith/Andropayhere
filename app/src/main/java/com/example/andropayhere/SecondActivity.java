@@ -24,8 +24,8 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 InitRequest req = new InitRequest();
-                req.setMerchantId("1217375");       // Your Merchant PayHere ID
-                req.setMerchantSecret("8QmJ6HGO5jN4eSlsd5r0QX4JG4EDCoZAg8QnZpwEA76J"); // Your Merchant secret (Add your app at Settings > Domains & Credentials, to get this))
+                req.setMerchantId("1217XXX");       // Your Merchant PayHere ID
+                req.setMerchantSecret("XXXXXXXX"); // Your Merchant secret (Add your app at Settings > Domains & Credentials, to get this))
                 req.setCurrency("LKR");             // Currency code LKR/USD/GBP/EUR/AUD
                 req.setAmount(1000.00);             // Final Amount to be charged
                 req.setOrderId("230000123");        // Unique Reference ID
