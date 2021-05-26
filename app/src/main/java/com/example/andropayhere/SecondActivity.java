@@ -11,7 +11,6 @@ import lk.payhere.androidsdk.PHConfigs;
 import lk.payhere.androidsdk.PHConstants;
 import lk.payhere.androidsdk.PHMainActivity;
 import lk.payhere.androidsdk.model.InitRequest;
-import lk.payhere.androidsdk.PHConstants.*;
 
 public class SecondActivity extends AppCompatActivity {
     private final static int PAYHERE_REQUEST = 11010;
